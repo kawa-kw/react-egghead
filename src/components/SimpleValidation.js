@@ -1,11 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 
 // Parent component
 class SimpleValidation extends React.Component {
     render() {
-        return <Title text="212dsdasd3"/>
+        return <Title text="dfsdfsdfsdfs"/>
     }
 }
 

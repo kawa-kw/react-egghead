@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import App from './components/App';
 
-import Events from './Events';
-import InputUpdate from './InputUpdate';
-import Mounting from './Mounting';
-import NestedComponents from './NestedComponents';
-import References from './References';
-import SimpleValidation from './SimpleValidation';
+import Events from './components/Events';
+import Filter from './components/Filter';
+import AppHOC from './components/HOC';
+import InputUpdate from './components/InputUpdate';
+import Mounting from './components/Mounting';
+import MountingLevelUp from './components/MountingLevelUp';
+import NestedComponents from './components/NestedComponents';
+import References from './components/References';
+import SimpleValidation from './components/SimpleValidation';
 
 
 // class AppWrapper extends React.Component {
@@ -31,6 +34,25 @@ const AppWrapper = () =>
 
         <br />
         <br />
+
+        <h4>------------- From AppHOC ------------------------</h4>
+        <AppHOC />
+
+        <br />
+        <br />
+
+        <h4>------------- From Filter ------------------------</h4>
+        <Filter />
+
+        <br />
+        <br />
+
+        <h4>------------- From MountingLevelUp ------------------------</h4>
+        <MountingLevelUp />
+
+        <br />
+        <br />
+
 
         <h4>------------- From Mounting ------------------------</h4>
         <Mounting />
