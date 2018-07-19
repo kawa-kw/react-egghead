@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 
+import Children from './components/Children';
+import ChildrenButtons from './components/ChildrenButtons';
 import Events from './components/Events';
 import Filter from './components/Filter';
 import AppHOC from './components/HOC';
@@ -10,6 +12,8 @@ import InputUpdate from './components/InputUpdate';
 import Mounting from './components/Mounting';
 import MountingLevelUp from './components/MountingLevelUp';
 import NestedComponents from './components/NestedComponents';
+import RangeSlider from './components/RangeSlider';
+import RangeSliderFlexi from './components/RangeSliderFlexi';
 import References from './components/References';
 import SimpleValidation from './components/SimpleValidation';
 
@@ -31,6 +35,30 @@ const AppWrapper = () =>
     <div>
         <h4>------------- From App ------------------------</h4>
         <App />
+
+        <br />
+        <br />
+
+        <h4>------------- From RangeSliderFlexi ------------------------</h4>
+        <RangeSliderFlexi />
+
+        <br />
+        <br />
+
+        <h4>------------- From RangeSlider ------------------------</h4>
+        <RangeSlider />
+
+        <br />
+        <br />
+
+        <h4>------------- From ChildrenButtons ------------------------</h4>
+        <ChildrenButtons />
+
+        <br />
+        <br />
+
+        <h4>------------- From Children ------------------------</h4>
+        <Children />
 
         <br />
         <br />
