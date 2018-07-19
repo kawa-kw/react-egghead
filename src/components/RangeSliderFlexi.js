@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
-class RangeSlider extends React.Component {
+class RangeSliderFlexi extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -39,7 +39,8 @@ class NumInput extends React.Component {
         let label = this.props.label !== '' ? <label>{this.props.label} - {this.props.val}</label> : ''
         return (
             <div>
-                <input ref="inp"
+                <input
+                    ref="inp"
                     type={this.props.type}
                     min={this.props.min}
                     max={this.props.max}
@@ -71,4 +72,4 @@ NumInput.defaultProps = {
     type: 'range',
 }
 
-export default RangeSlider;
+export default RangeSliderFlexi;
